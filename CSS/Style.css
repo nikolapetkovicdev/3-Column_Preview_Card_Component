@@ -1,0 +1,121 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    width: 20rem;
+    margin: 5rem 1rem;
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    padding: 1.5rem 0 2.5rem;
+    line-height: 1.6rem;
+    opacity: .8;
+}
+
+img {
+    padding: 0 0 1.5rem;
+}
+
+a {
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%); 
+    padding: .8rem 1.5rem;
+    border-radius: 10rem;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5rem 2.5rem 3.5rem;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5rem 2.5rem 3.5rem;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5em 2.5rem 3.5rem;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.btn-sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-sedans:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid;
+}
+
+.btn-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid;
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid;
+}
+
+@media only screen and (min-width: 800px) {
+
+
+
+    main {
+        margin: 1rem;
+        display: flex;
+        width: 56.5rem;
+    }
+
+    .sedans {
+        border-bottom-left-radius: .6rem;
+        border-top-right-radius: 0;
+    }
+
+    .luxury {
+        border-top-right-radius: .6rem;
+        border-bottom-left-radius: 0;
+    }
+
+    p {
+        padding-bottom: 6rem;
+    }
+}
